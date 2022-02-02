@@ -18,12 +18,12 @@ http.createServer(function (req, res) {
 
     //nampilin data json-nya
     res.writeHead(200, {'Content-Type': 'application/json'});
-	const jsonData = {
-	    status  : 200, 
+    const jsonData = {
+	status  : 200, 
         nama    : 'Kusno',
-		message : 'bisaaaa xixixixi' , 
-	}
-	console.log('HAHA :D Server Runnnnnnnnnn wuss.. wussstt......');
-	res.end( JSON.stringify(jsonData)); 
+	message : 'bisaaaa xixixixi', 
+    }
+    console.log('HAHA :D Server Runnnnnnnnnn wuss.. wussstt......');
+    res.end( JSON.stringify(jsonData)); 
     
 }).listen(2022);
